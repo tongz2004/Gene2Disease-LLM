@@ -2,7 +2,7 @@
 
 **Request design, input scope, and evaluation choices in gene–disease relation judgment with local large language models.**
 
-Project page: <https://suzuka2788.github.io/Gene2Disease-LLM/>
+Project page: <https://tongz2004.github.io/Gene2Disease-LLM/>
 
 This repository is an empirical study, not a new extraction method. It asks how three choices change the conclusions drawn about LLM judgment of gene–disease relations when the entities are given:
 
@@ -12,7 +12,7 @@ This repository is an empirical study, not a new extraction method. It asks how 
 
 Two local models (Qwen3.5-9B and Gemma-4-12B, through llama.cpp) were compared under a protocol fixed on development data, then evaluated once on BioRED Test and on the BioTriplex validation and test splits. A source-hidden, single-annotator assessment checked whether the passage and the cited sentences support 76 sampled predictions.
 
-It succeeds the earlier project [GeneDiseaseTrace-LLM](https://github.com/Suzuka2788/GeneDiseaseTrace-LLM). None of the earlier numerical results are reused here; the pipeline was rewritten and every reported result was regenerated.
+It succeeds the earlier project [GeneDiseaseTrace-LLM](https://github.com/tongz2004/GeneDiseaseTrace-LLM). None of the earlier numerical results are reused here; the pipeline was rewritten and every reported result was regenerated.
 
 ## Main results (frozen test evaluation)
 
